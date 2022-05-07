@@ -1,14 +1,17 @@
 <template>
+  <!-- <Counter :start="10"/> -->
   <Indecision />
 </template>
 
 <script>
 import Indecision from "@/components/Indecision.vue";
+import Counter from "@/components/Counter.vue";
 
 export default {
   name: "App",
   components: {
     Indecision,
+    Counter,
   },
 };
 </script>
