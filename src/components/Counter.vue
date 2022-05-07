@@ -20,7 +20,7 @@ export default {
       default: 100,
       // required: true,
       validator(value) {
-        return value > 100
+        return value > 100;
       },
     },
   },
