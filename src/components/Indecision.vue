@@ -34,7 +34,7 @@ export default {
         this.answer = answer === "yes" ? "Si!" : "No!";
         this.img = image;
       } catch (error) {
-        console.log('IndecisionComponent',error);
+        console.log("IndecisionComponent", error);
         this.answer = "No se pudo cargar del API";
         this.img = null;
       }
